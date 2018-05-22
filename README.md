@@ -1,2 +1,2 @@
-# go-north-dakota
-Gamemaker Studio 2 platformer
+# hackathon-2018
+Gamemaker Studio Game for 2018 Hackathon
