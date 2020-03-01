@@ -2,7 +2,7 @@
     "id": "b8d5fd5b-f68c-4b65-b39a-8cc8b2fc1171",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "desert_intro",
+    "name": "obj_intro_desert",
     "eventList": [
         {
             "id": "492130d5-39dd-4272-8883-0f29bfd5312b",
