@@ -1,7 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Set variables
+
 fade_alpha = 1;
-fadeout = 0;
+fadeout = false;
 
 whole_text = ""; // Whole string we want to write to the screen
 shown_text = ""; // Characters shown on the screen
@@ -20,5 +20,6 @@ dialogue[3] = "Be sure to rest in your dog house until morning";
 dialogue[4] = "And fill up with treats along the way!";
 
 dakota_instance = instance_find(obj_dakota, 0);
+dog_house_instance = instance_find(obj_dog_house, 0);
 dakota_instance.ignore_user_input = true;
 dakota_instance.x_spd = 3;
