@@ -1,2 +1,2 @@
 /// @description Insert description here
-mu = 10
+mu = 5

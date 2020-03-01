@@ -5,12 +5,14 @@ if (movements_disabled) {
 }
 
 // Handle Keyboard inputs
-key_left = keyboard_check(ord("A")); // 1 if held down, 0 if not
-key_right = keyboard_check(ord("D")); // 1 if held down, 0 if not
-key_jump = keyboard_check_pressed(vk_space); // 1 if just pressed, 0 if not
-key_bark = mouse_check_button(mb_left);
-key_sit = keyboard_check(ord("S"));
-key_idle = keyboard_check(ord("W"));
+if (!ignore_user_input) {
+	key_left = keyboard_check(ord("A")); // 1 if held down, 0 if not
+	key_right = keyboard_check(ord("D")); // 1 if held down, 0 if not
+	key_jump = keyboard_check_pressed(vk_space); // 1 if just pressed, 0 if not
+	key_bark = mouse_check_button(mb_left);
+	key_sit = keyboard_check(ord("S"));
+	key_idle = keyboard_check(ord("W"));
+}
 
 bark_timer = (bark_timer > 0) ? bark_timer -1 : bark_timer;
 if (key_idle) { // Stand back up from sitting
