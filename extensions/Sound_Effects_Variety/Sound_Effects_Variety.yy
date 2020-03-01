@@ -1,7 +1,7 @@
 {
     "id": "eaf2874b-20fc-45c0-aaed-e7e6fb9a09ba",
     "modelName": "GMExtension",
-    "mvc": "1.0",
+    "mvc": "1.2",
     "name": "Sound_Effects_Variety",
     "IncludedResources": [
         "Sounds\\snd_applause",
@@ -39,6 +39,7 @@
     "copyToTargets": -1,
     "date": "2018-39-17 08:05:18",
     "description": "",
+    "exportToGame": true,
     "extensionName": "",
     "files": [
         
@@ -53,13 +54,29 @@
     "iosThirdPartyFrameworkEntries": [
         
     ],
+    "iosdelegatename": null,
     "iosplistinject": "",
     "license": "Free to use, also for commercial games.",
     "maccompilerflags": "",
     "maclinkerflags": "",
     "macsourcedir": "",
+    "options": null,
+    "optionsFile": "options.json",
     "packageID": "com.minininjainteractive.soundeffectsvariety",
     "productID": "ACBD3CFF4E539AD869A0E8E3B4B022DD",
     "sourcedir": "",
+    "supportedTargets": -1,
+    "tvosProps": false,
+    "tvosSystemFrameworkEntries": [
+        
+    ],
+    "tvosThirdPartyFrameworkEntries": [
+        
+    ],
+    "tvosclassname": null,
+    "tvosdelegatename": null,
+    "tvosmaccompilerflags": null,
+    "tvosmaclinkerflags": null,
+    "tvosplistinject": null,
     "version": "1.0.0"
 }

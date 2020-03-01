@@ -11,7 +11,10 @@
         "6a3f54d8-7e40-44ee-9fc3-48d4ef636c46",
         "247887dc-c8c1-439f-9911-6ed80bb3f87b",
         "6cc2cdc7-3f15-48a6-8ec4-7f073622402e",
-        "e9e662cd-8b0c-4167-a88a-22fd7e8bf82d"
+        "e9e662cd-8b0c-4167-a88a-22fd7e8bf82d",
+        "dd9f4e44-5120-404a-b9fa-1c7e7a165927",
+        "bd43fdb5-46fd-4b75-93fa-23d1bd1eee95",
+        "fe969b11-f1ca-4883-b5f6-25c84f1cbf82"
     ],
     "filterType": "GMSprite",
     "folderName": "desert",

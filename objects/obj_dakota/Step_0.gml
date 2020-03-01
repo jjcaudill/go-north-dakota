@@ -20,8 +20,11 @@ if (key_idle) { // Stand back up from sitting
 // Update horizontal velocity
 x_direction = key_right - key_left; // 1 if moving forward, -1 if moving backwards
 
+// Slow Down
 if(place_meeting(x, y+1, obj_slippery)) {
 	x_velocity = ((x_direction * x_spd) + (x_velocity * obj_slippery.mu)) / (obj_slippery.mu + 1);
+} else if(place_meeting(x, y+1, obj_ground)) {
+	x_velocity = ((x_direction * x_spd) + (x_velocity * obj_ground.mu)) / (obj_ground.mu + 1);
 } else{
 	x_velocity = x_direction * x_spd;	
 }

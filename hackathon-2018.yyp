@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "082b3add-9ea8-4531-a4a4-b9050688f770",
+            "Value": {
+                "id": "31777ab0-66f8-4269-a92a-3ca2cf6c5ae0",
+                "resourcePath": "rooms\\City2\\City2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "095e060b-de6a-4c70-95f8-6de7b5cedc9d",
             "Value": {
                 "id": "ed36a70a-4279-40ae-920b-160f8bba4698",
@@ -99,6 +107,14 @@
             "Value": {
                 "id": "0307aa3c-3b56-45d1-bcb0-4626c327b25a",
                 "resourcePath": "objects\\obj_desert_platform_left\\obj_desert_platform_left.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "166ffb41-00d6-4b3e-9f3f-3139e4a48276",
+            "Value": {
+                "id": "0cae8f31-11de-4803-bd1c-7d39af5219c6",
+                "resourcePath": "objects\\obj_city_car2\\obj_city_car2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -199,6 +215,14 @@
             }
         },
         {
+            "Key": "329e1a0d-5431-49f7-a2ca-ce740a8196d2",
+            "Value": {
+                "id": "186ae6fb-7f62-4eea-a10d-52e6f8b928d2",
+                "resourcePath": "objects\\obj_city_platform_center\\obj_city_platform_center.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3401a6c1-b82b-47c5-a5cb-10fb2e89e450",
             "Value": {
                 "id": "4aa2ec17-5248-4e2d-9a44-75321460f340",
@@ -228,6 +252,22 @@
                 "id": "bfda5b8e-ad4e-46ac-bcf2-a1ccd7290697",
                 "resourcePath": "sprites\\spr_arctic_platform1\\spr_arctic_platform1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3b3a2cfa-09ce-4463-a0c7-fdfdffe2ebba",
+            "Value": {
+                "id": "201c1dec-a5ce-4668-bbf8-7faf6c78bc0e",
+                "resourcePath": "objects\\obj_desert_bush\\obj_desert_bush.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3dcbe329-d72d-424f-bd05-585ebc7ba65c",
+            "Value": {
+                "id": "8a42c61c-0282-4888-bf6b-499bdba1bc9c",
+                "resourcePath": "objects\\obj_car\\obj_car.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -351,11 +391,27 @@
             }
         },
         {
+            "Key": "5f35d28b-d5ac-497c-9fa0-036333d8273b",
+            "Value": {
+                "id": "46ec3e4e-7b1d-4c1d-89e0-4f215af44afb",
+                "resourcePath": "objects\\obj_city_car_spawner\\obj_city_car_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "627a5df9-05c1-4c89-be16-2bd0db9e9671",
             "Value": {
                 "id": "a9c74da8-8fe7-4620-80d7-b775bd9bf810",
                 "resourcePath": "views\\627a5df9-05c1-4c89-be16-2bd0db9e9671.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "62acd3ed-a174-4b72-9ad9-216b8ff78d6a",
+            "Value": {
+                "id": "d62876bb-fe0a-4abd-9f55-f86e98e9c23b",
+                "resourcePath": "objects\\obj_city_platform_right\\obj_city_platform_right.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -412,6 +468,14 @@
                 "id": "8fb0c803-2cdc-44e6-bf60-19a923d832ac",
                 "resourcePath": "notes\\compatibility_report_170518_2039183918.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "75f2c5ae-61a4-4f58-a9aa-56344ba05302",
+            "Value": {
+                "id": "8bfdc816-f75c-4767-b076-e4824eedd5b8",
+                "resourcePath": "sprites\\spr_city_platform2\\spr_city_platform2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -551,6 +615,14 @@
             }
         },
         {
+            "Key": "96bdf456-0de5-418c-9612-9b45364be652",
+            "Value": {
+                "id": "6798df1b-0d95-4251-906c-f6a8ad44b6a1",
+                "resourcePath": "objects\\obj_desert_stone\\obj_desert_stone.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9c9ec9e4-aa22-4757-8e94-19fb69ce5538",
             "Value": {
                 "id": "f339549b-421e-43b7-a164-18ad9129dc44",
@@ -571,6 +643,14 @@
             "Value": {
                 "id": "ee519994-e198-4794-bac0-386e731bf83c",
                 "resourcePath": "sprites\\spr_desert_tile\\spr_desert_tile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a0f90cbd-fe0e-4daf-9cb5-8c723d346dec",
+            "Value": {
+                "id": "77b5c2a2-416c-4e48-adb5-45ff4ab4b97c",
+                "resourcePath": "sprites\\spr_city_platform1\\spr_city_platform1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -599,6 +679,14 @@
             }
         },
         {
+            "Key": "a8ae502a-3dca-4870-8e03-0bbd6043e700",
+            "Value": {
+                "id": "6e72f0c4-5b99-4548-84f7-8a97fc7a85cf",
+                "resourcePath": "views\\a8ae502a-3dca-4870-8e03-0bbd6043e700.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a9a2ee28-1f8e-49b7-bc5d-4ce61dd0db43",
             "Value": {
                 "id": "a5f8264b-ae58-4983-9e2b-2ba678e4feaa",
@@ -623,6 +711,22 @@
             }
         },
         {
+            "Key": "afec5748-f44e-4a03-bd9f-a41bce692773",
+            "Value": {
+                "id": "13cf3d73-ee66-4174-bd4b-b706cfcc58d2",
+                "resourcePath": "sprites\\spr_city_bg\\spr_city_bg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b00dd1ae-286a-4f95-9e3e-c5c18e8a317c",
+            "Value": {
+                "id": "283515f1-5653-4e0c-a195-1bb9c0e1fa48",
+                "resourcePath": "rooms\\City1\\City1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b21b8120-3efa-42ee-9677-caaad553d115",
             "Value": {
                 "id": "cb77b513-5ccf-42a6-babd-7cf3a665120c",
@@ -635,6 +739,14 @@
             "Value": {
                 "id": "fe684076-a1b8-449a-8bea-05f21f61606c",
                 "resourcePath": "sprites\\spr_forest_bg\\spr_forest_bg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b69edb4c-2c17-4243-a5d2-50d1ee947471",
+            "Value": {
+                "id": "78ce5ab8-8040-466e-8ab9-e00a96461772",
+                "resourcePath": "sprites\\spr_city_car2\\spr_city_car2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -652,6 +764,14 @@
                 "id": "91a20669-ee25-4cef-89ca-92c890939d81",
                 "resourcePath": "objects\\obj_desert_cactus\\obj_desert_cactus.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bd43fdb5-46fd-4b75-93fa-23d1bd1eee95",
+            "Value": {
+                "id": "06dc9cd6-f927-45cc-9754-9dda3dc0e4cd",
+                "resourcePath": "sprites\\spr_desert_stone\\spr_desert_stone.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -691,6 +811,22 @@
             "Value": {
                 "id": "e3a85d8d-915a-4d3d-9dec-31bb8b7cb674",
                 "resourcePath": "sprites\\spr_arctic_bg\\spr_arctic_bg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c319a21a-92d4-4a6d-92c3-b6f3b1fb4588",
+            "Value": {
+                "id": "b7d89346-eb12-4e27-896a-85643654e18e",
+                "resourcePath": "sprites\\spr_city_platform3\\spr_city_platform3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c37247b7-55de-4e16-b2e8-592eceae45c4",
+            "Value": {
+                "id": "6313a1f2-b172-4e1f-8bcf-13a8e7b9f4fb",
+                "resourcePath": "sprites\\spr_city_car1\\spr_city_car1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -743,6 +879,14 @@
             }
         },
         {
+            "Key": "d23decc5-fb3a-4825-a918-cc1b9b28fc18",
+            "Value": {
+                "id": "4906fec2-0627-4c2e-ba42-f7088492b5fe",
+                "resourcePath": "objects\\obj_city_car1\\obj_city_car1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d301d1d5-c0a8-4047-9b89-ba75127dc5d6",
             "Value": {
                 "id": "ead54d6d-e9c9-40e6-badc-73617fdc17b4",
@@ -764,6 +908,14 @@
                 "id": "8042cdf2-4983-4ee5-b367-f788191a2038",
                 "resourcePath": "views\\d4338f3c-1dc5-434c-bd50-451dbb05e661.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d562e782-844d-4fe0-b3f6-84dc7c837957",
+            "Value": {
+                "id": "8c7eba1d-932c-4009-9b3f-70719d1332be",
+                "resourcePath": "objects\\obj_city_platform_left\\obj_city_platform_left.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -818,8 +970,16 @@
             "Key": "dc8fc80a-f7a1-4b45-8c5f-30d0f3595d44",
             "Value": {
                 "id": "2ea2424a-affe-4db6-911d-e750cc6ef10c",
-                "resourcePath": "rooms\\Desert5\\Desert5.yy",
+                "resourcePath": "rooms\\Desert4\\Desert4.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "dd9f4e44-5120-404a-b9fa-1c7e7a165927",
+            "Value": {
+                "id": "f3a735df-aeb6-44a5-a2be-5b776cb4fdce",
+                "resourcePath": "sprites\\spr_desert_bush\\spr_desert_bush.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -927,6 +1087,14 @@
             }
         },
         {
+            "Key": "ee257793-770d-4795-8a34-d4c74022f2d5",
+            "Value": {
+                "id": "b89a65ed-c4c7-4c20-a776-504c523cc71f",
+                "resourcePath": "objects\\obj_desert_deadbush\\obj_desert_deadbush.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f04aea44-3e1e-488f-944f-0ac0cd3bbfad",
             "Value": {
                 "id": "8b3db04a-cd02-4ec3-9dba-ae5b3b8930be",
@@ -991,11 +1159,27 @@
             }
         },
         {
+            "Key": "fb3be096-11fe-4e3a-b6a0-15913f835c33",
+            "Value": {
+                "id": "3f0141aa-a6e7-4ed8-9915-348ed818eaf3",
+                "resourcePath": "views\\fb3be096-11fe-4e3a-b6a0-15913f835c33.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "fd384943-6139-44d6-960b-4e1f13066940",
             "Value": {
                 "id": "50641672-7b3d-470c-a192-cf5a18870e20",
                 "resourcePath": "objects\\obj_skeleton\\obj_skeleton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fe969b11-f1ca-4883-b5f6-25c84f1cbf82",
+            "Value": {
+                "id": "fca8a498-ef47-43a9-954e-e638fac5161d",
+                "resourcePath": "sprites\\spr_desert_deadbush\\spr_desert_deadbush.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
