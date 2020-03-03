@@ -1,19 +1,9 @@
-/// @description Handle cutscene
+/// @description Handle text and Dakota movement
 
 time_pass += 1;
 if (time_pass > start_moving) {
 	dakota_instance.key_right = 1;
 }
-
-//if (dakota_instance.sprite_index == spr_dakota_sit) {
-//	fadeout = true;	
-//}
-
-//if (!fadeout) {
-//	fade_alpha = max(fade_alpha - 0.005, 0);	
-//} else {
-//	fade_alpha = min(fade_alpha + 0.01, 1);	
-//}
 
 current_letter += 0.5;
 shown_text = string_copy(whole_text, 1, current_letter);

@@ -12,6 +12,11 @@ if (!ignore_user_input) {
 	key_bark = mouse_check_button(mb_left);
 	key_sit = keyboard_check(ord("S"));
 	key_idle = keyboard_check(ord("W"));
+	
+	if (keyboard_check_pressed(vk_escape)) {
+		alarm[1] = 10;
+		return;
+	}
 }
 
 bark_timer = (bark_timer > 0) ? bark_timer -1 : bark_timer;
@@ -36,6 +41,7 @@ if(y_velocity > 0 && place_meeting(x, y+y_velocity, obj_ground)) {
 	audio_play_sound(snd_land, 1, false);
 }
 
+// TODO: Terminal velocity?
 y_velocity -= grav;
 sprite_index = (x_direction != 0) ? spr_dakota_walk : spr_dakota_idle;
 
@@ -45,15 +51,19 @@ if (place_meeting(x, y+1, obj_ground) && key_jump) {
 	audio_play_sound(snd_jump, 1, false);
 }
 
-
-if (place_meeting(x+x_velocity, y, obj_ground)) {
+// Handle collisions
+ins_ground = instance_place(x+x_velocity, y, obj_ground);
+if (ins_ground != noone) {
+	ins_ground.touched = true;
 	while(!place_meeting(x+sign(x_velocity), y, obj_ground)) {
 			x+=sign(x_velocity); 
 	}
 	x_velocity = 0;
 }
 
-if (place_meeting(x, y+y_velocity, obj_ground)) {
+ins_ground = instance_place(x, y+y_velocity, obj_ground);
+if (ins_ground != noone) {
+	ins_ground.touched = true;
 	while(!place_meeting(x, y+sign(y_velocity), obj_ground)) {
 			y+=sign(y_velocity); 
 	}

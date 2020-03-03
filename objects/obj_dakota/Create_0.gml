@@ -23,3 +23,5 @@ key_jump = 0;
 key_bark = 0;
 key_sit = 0;
 key_idle = 0;
+
+death_count = 0;

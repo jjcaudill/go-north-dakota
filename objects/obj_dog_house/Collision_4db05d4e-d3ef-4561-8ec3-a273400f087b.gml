@@ -15,6 +15,7 @@ if (!disabled) {
 
 	// start alarm to go to the next level.
 	if (alarm[0] == -1) {
+		level_complete = true;
 		alarm[0] = 100;
 	}
 }
