@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0bfa12cf-6811-4aab-80d4-b7bda689e509",
+            "Value": {
+                "id": "f53aad5a-e081-4b38-8ba9-19f91a83df0f",
+                "resourcePath": "objects\\obj_box\\obj_box.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0c971a3c-ef61-4f82-a4f7-90b9ec912f51",
             "Value": {
                 "id": "ec39eae2-7024-4a37-aa42-6630a701d617",
@@ -84,6 +92,14 @@
                 "id": "68320488-f7f3-4d9a-a5db-0049c281101f",
                 "resourcePath": "objects\\obj_desert_platform_center\\obj_desert_platform_center.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0e0823a9-ad55-47f9-8727-fcaa32620623",
+            "Value": {
+                "id": "7e096b39-0955-4f67-a07f-621ab9c137bb",
+                "resourcePath": "sprites\\spr_forest_bush1\\spr_forest_bush1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -575,6 +591,14 @@
             }
         },
         {
+            "Key": "77c59e1a-7dff-4cb3-ab0e-081916d98372",
+            "Value": {
+                "id": "522632d7-79f3-41aa-8591-8db9037f6074",
+                "resourcePath": "sprites\\spr_box_hit\\spr_box_hit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7c5d395f-6ccc-405c-a111-a539bb3106b1",
             "Value": {
                 "id": "f49c21f0-d06a-4364-aa21-725141d50dab",
@@ -674,7 +698,7 @@
             "Key": "9008624f-9b52-4edb-bc9f-ba2d96a8426d",
             "Value": {
                 "id": "27d3d454-4526-499a-83b4-5616933e1e07",
-                "resourcePath": "rooms\\Desert5\\Desert5.yy",
+                "resourcePath": "rooms\\Desert4\\Desert4.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1015,6 +1039,14 @@
             }
         },
         {
+            "Key": "c7b5472c-bc3a-479f-bd20-65a9ccacb533",
+            "Value": {
+                "id": "866743b5-e73d-4420-bbeb-97c55d7cb2d8",
+                "resourcePath": "sprites\\spr_box_boom\\spr_box_boom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c973dabb-8484-48aa-b56d-6d38a85b7c75",
             "Value": {
                 "id": "efbcba71-1065-41e0-bc38-0a6385a777cc",
@@ -1095,6 +1127,14 @@
             }
         },
         {
+            "Key": "d5851bdd-0d07-40c8-a37a-c0ae53bfb303",
+            "Value": {
+                "id": "4a58216a-66a9-470b-880b-7459ba46f30c",
+                "resourcePath": "objects\\obj_desert_platform_disappear\\obj_desert_platform_disappear.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d5d266f0-cad0-4c59-a188-6b1797298c2c",
             "Value": {
                 "id": "38abb8be-e466-4e67-be12-9cfa9ad52253",
@@ -1135,6 +1175,14 @@
             }
         },
         {
+            "Key": "dac0f6fc-f308-4aa7-9eb9-2fa1b2b11067",
+            "Value": {
+                "id": "c4de0050-297e-432b-af01-21dd6037c20c",
+                "resourcePath": "objects\\obj_disappear\\obj_disappear.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "db0ec070-8a01-4c84-bb68-08cb32586c97",
             "Value": {
                 "id": "811eb8d5-3a95-4e4f-aa86-e4e5b74fece8",
@@ -1146,7 +1194,7 @@
             "Key": "dc8fc80a-f7a1-4b45-8c5f-30d0f3595d44",
             "Value": {
                 "id": "2ea2424a-affe-4db6-911d-e750cc6ef10c",
-                "resourcePath": "rooms\\Desert4\\Desert4.yy",
+                "resourcePath": "rooms\\Desert5\\Desert5.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1242,7 +1290,7 @@
             "Key": "e9e662cd-8b0c-4167-a88a-22fd7e8bf82d",
             "Value": {
                 "id": "7378345a-9b3c-4c70-8688-b85aa00bb751",
-                "resourcePath": "sprites\\spr_desert_box\\spr_desert_box.yy",
+                "resourcePath": "sprites\\spr_box\\spr_box.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1258,7 +1306,7 @@
             "Key": "ead60d89-c18b-4da5-a098-a5260d70bea5",
             "Value": {
                 "id": "a0a3627f-d6a3-471d-a1a7-6df1e19f8a11",
-                "resourcePath": "objects\\obj_desert_disappear\\obj_desert_disappear.yy",
+                "resourcePath": "objects\\obj_desert_tile_disappear\\obj_desert_tile_disappear.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1388,6 +1436,14 @@
                 "id": "50641672-7b3d-470c-a192-cf5a18870e20",
                 "resourcePath": "objects\\obj_skeleton\\obj_skeleton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fdda3b29-929b-416d-9fd9-9e30fe4c084e",
+            "Value": {
+                "id": "790ac52d-2c42-41fb-b494-3af7a85c453b",
+                "resourcePath": "rooms\\Forest0\\Forest0.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

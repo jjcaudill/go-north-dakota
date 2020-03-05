@@ -8,7 +8,8 @@
         "491db2d6-3ebc-433b-9938-74b7453ae470",
         "e6bf4b67-6b2e-45eb-8fb8-07067c56dd35",
         "0b93dbd5-494d-4041-b529-b4ff13128c95",
-        "ecbed846-1739-4a49-98ec-c5b53c38c055"
+        "ecbed846-1739-4a49-98ec-c5b53c38c055",
+        "0e0823a9-ad55-47f9-8727-fcaa32620623"
     ],
     "filterType": "GMSprite",
     "folderName": "forest",
